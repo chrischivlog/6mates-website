@@ -30,24 +30,27 @@ h5 {
 
 .box1 {
     border: 30px solid transparent;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 3px 34px -12px rgba(48, 43, 48, 0.521);
     transition: all .2s linear;
-    transform: skewX(-12deg) scale(1.2);
+    transform: skewX(-6deg);
+    position: sticky;
+    z-index: 9;
 }
 .box2 {
     border: 30px solid transparent;
-    border-radius: 5px;
-    box-shadow: 0px 3px 34px -12px rgba(48, 43, 48, 0.521);
-    transform: scale(1.5);
+    border-radius: 10px;
+    overflow: hidden;
+    transform: skewX(-6deg);
     position: sticky;
-    z-index: 10;
+    z-index: 8;
+    
 }
 .box3 {
     border: 30px solid transparent;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 3px 34px -12px rgba(48, 43, 48, 0.521);
-    transform: skewX(12deg) scale(1.2);
+    transform: skewX(-6deg);
     position: sticky;
     z-index: 9;
 }
@@ -55,7 +58,7 @@ h5 {
 
 .box_project {
     border: 30px solid #13182E;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 3px 34px -12px rgba(48, 43, 48, 0.521);
     background-color: #13182E;
     color: white;
@@ -83,4 +86,11 @@ b {
         display: none;
     }
 
+}
+
+
+/* Spacer */
+
+.spacer_100{
+    margin-top: 100px;
 }
