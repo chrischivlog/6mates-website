@@ -1,0 +1,11 @@
+.side-nav {
+    overflow-y: scroll;
+    height: 100vh;
+    top: auto;
+}
+
+.body {
+    height: 100vh;
+    width: 100vh;
+    background-color: red;
+}
